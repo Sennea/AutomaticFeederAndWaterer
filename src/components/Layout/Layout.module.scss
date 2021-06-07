@@ -1,0 +1,51 @@
+.home {
+    background: rgb(255, 255, 255);
+// background: radial-gradient(circle, rgb(255, 255, 255) 70%, rgba(72, 126, 228, 0.4) 100%);
+    width: calc(100vw - 40px);
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+.button {
+    background-color: cornflowerblue;
+    border: 3px solid rgb(72, 126, 228);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: bold;
+    margin-left: 10px;
+    color: darkblue;
+}
+
+.groupWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238, 221, 255);
+    border: 3px solid rgb(72, 126, 228);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px
+}
+
+.infoWrapper {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    border-bottom: 2px solid rgb(72, 126, 228);
+}
